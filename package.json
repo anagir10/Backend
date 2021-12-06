@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,7 @@
     "jsonwebtoken": "8.5.1",
     "mongoose": "^6.0.13",
     "to": "^0.2.9",
-    "update": "^0.4.2"
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "faker": "5.5.3",
